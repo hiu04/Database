@@ -1,5 +1,5 @@
 select *
-from xiaoyuma_db.simpsons."CADCNY=X" as c;
+from xiaoyuma_db.simpsons."CADCNY=X" as c; -- download from yahoo finance
 
 create table t as (
 with rank as (
